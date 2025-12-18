@@ -59,7 +59,7 @@ jobs:
           fi
           
           # Extract student folders that changed
-          STUDENTS=$(echo "$CHANGED_FILES" | grep "Task 03/submissions/" | cut -d'/' -f4 | sort -u)
+          STUDENTS=$(echo "$CHANGED_FILES" | grep "Task 03/submissions/" | cut -d'/' -f3 | sort -u)
           
           if [ -z "$STUDENTS" ]; then
             echo "ℹ️  No submissions changed"
