@@ -184,5 +184,23 @@
     "grade": "B",
     "last_updated": "2025-12-19 07:31 UTC",
     "submission_count": 1
+  },
+  "Sayuru_Pilapitiya": {
+    "student": "Sayuru_Pilapitiya",
+    "file_structure": 7,
+    "semantic_html": 18,
+    "functionality": 23,
+    "design": 9,
+    "responsive": 8,
+    "issues": [
+      "\u26a0\ufe0f No profile photo in images/",
+      "\u26a0\ufe0f No grid/flex layout",
+      "\u26a0\ufe0f No hover effects",
+      "\u274c No media queries - not responsive"
+    ],
+    "total": 65,
+    "grade": "D",
+    "last_updated": "2025-12-19 08:17 UTC",
+    "submission_count": 1
   }
 }
